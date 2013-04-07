@@ -1,0 +1,16 @@
+WorkDesigner 工作设计平台
+
+开发计划：
+一、2月1日前完成WorkDesigner的设计器开发（支持常用流程元素，常用表单元素）
+  表单控件：文本、日期、下拉选择、级联下拉选择、复选按钮、单选按钮、文本区、富文本区、附件、人员/部门选择、树、表格
+  流程模型改造：
+  增加fork、join、decision节点图标、Task模型增加Expression、Handler属性，用于流程引擎的表达式判断；
+ BaseElement的size、location合并为layout，并且在jaxb转换时，进行处理
+ 去除Transition的performType等属性。由于Transition连接了fork、join、decision节点
+
+
+二、3月1日前完成代码生成开发（根据XML、Freemarker、Web-UI及流程框架生成代码）
+
+三、4月1日前完成流程引擎、流程设计器所有工作（包括测试、集成）
+
+四、后续开发：流程引擎新版发布、流程UI图形展现……

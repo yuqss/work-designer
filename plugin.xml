@@ -18,7 +18,7 @@
             extensions="form"
             icon="icons/form.png"
             id="com.work.designer.FormDesignerEditor"
-            name="FormDesignerEditor">
+            name="FormDesignerEditor" >
       </editor>
    </extension>
 </plugin>
